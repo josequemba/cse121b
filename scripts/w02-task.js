@@ -25,22 +25,22 @@ imageElement.src = profilePicture;
 imageElement.alt = `Profile image of ${fullName}`;
 
 /* Step 5 - Array */
-let favoriteFood = ["Mufete", "Muzungue", "Feijão de ole de palme",
+const favoriteFood = ["Mufete", "Muzungue", "Feijão de ole de palme",
 "Salada fria", "Muamba de Galinha", "Beef Steak"];
 
 foodElement.innerHTML = `<p>${favoriteFood}</p>`;
 
-let faFood = "Chorrasco";
+const faFood = "Chorrasco";
 
 favoriteFood.push (faFood);
 
-foodElement.innerHTML = `<br>${favoriteFood}`;
+foodElement.innerHTML += `<br>${favoriteFood}`;
 
 favoriteFood.shift ();
 
-foodElement.innerHTML = `<br>${favoriteFood}`;
+foodElement.innerHTML += `<br>${favoriteFood}`;
 
 favoriteFood.pop ();
 
-foodElement.innerHTML = `<br>${favoriteFood}`;
+foodElement.innerHTML += `<br>${favoriteFood}`;
 
