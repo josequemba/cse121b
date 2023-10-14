@@ -131,20 +131,16 @@ footer {
     display: block;
 }
 
-#week5{
-    padding: 50px;
-}
-
 #temples {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
     margin: 0 auto;
+    align-self: center;
 }
 
 #temples img{
     padding: 20px;
-    
     gap: 20px;
 }
 
