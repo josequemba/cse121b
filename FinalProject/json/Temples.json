@@ -1,0 +1,72 @@
+[
+    {
+        "templeName": "Johannesburg South Africa Temple",
+        "location": "Johannesburg, Gauteng, South Africa",
+        "dedicated": "1985, August, 24",
+        "area": 2193,
+        "imageUrl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/johannesburg-south-africa/800x1280/johannesburg-south-africa-temple-lds-450241-wallpaper.jpg"
+    },
+    {
+        "templeName": "Provo City Center",
+        "location": "Provo, Utah, United States",
+        "dedicated": "2016, March, 20",
+        "area": 85084,
+        "imageUrl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/provo-city-center/400x250/provo-city-center-temple-1572517-wallpaper.jpg"
+    },
+    {
+        "templeName": "Provo Utah",
+        "location": "Provo, Utah, United States",
+        "dedicated": "1972, February, 9",
+        "area": 130825,
+        "imageUrl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/provo-utah/400x250/provo-temple-lds-890642-wallpaper.jpg"
+    },
+    {
+        "templeName": "Salt Lake",
+        "location": "Salt Lake City, Utah, United States",
+        "dedicated": "1893, April, 6",
+        "area": 403000,
+        "imageUrl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/salt-lake-city-utah/2018/400x250/slctemple5.jpg"
+    },
+    {
+        "templeName": "Washington D.C.",
+        "location": "Kensington, Maryland, United States",
+        "dedicated": "1974, November, 19",
+        "area": 156558,
+        "imageUrl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/washington-dc/400x250/washington_dc_temple-exterior-2.jpeg"
+    },
+    {
+        "templeName": "Jordan River Utah",
+        "location": "South Jordan, Utah, United States",
+        "dedicated": "1981, November, 16",
+        "area": 148236,
+        "imageUrl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/jordan-river-utah/400x250/CWD_f5579d41-7344-4498-a589-4017ba5fcc91.jpg"
+    },
+    {
+        "templeName": "Oquirrh Mountain Utah Temple",
+        "location": "South Jordan, Utah, United States",
+        "dedicated": "1981, November, 16",
+        "area": 84009,
+        "imageUrl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/oquirrh-mountain-utah/1280x800/oquirrh-mountain-temple-lds-885895-wallpaper.jpg"
+    },
+    {
+        "templeName": "Rome Italy Temple",
+        "location": "Rome, Roma, Italy",
+        "dedicated": "2019, March, 10",
+        "area": 376,
+        "imageUrl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/rome-italy/2019/800x500/6-Rome-Temple-2160338.jpg"
+    },
+    {
+        "templeName": "Tucson Arizona Temple",
+        "location": "Tucson, Arizona, United States",
+        "dedicated": "2017, August, 13",
+        "area": 85718,
+        "imageUrl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/tucson-arizona/800x500/tucson-arizona-temple-exterior-1929407-wallpaper.jpg"
+    },
+    {
+        "templeName": "San Diego California Temple",
+        "location": "San Diego, California, United States",
+        "dedicated": "1993, April, 25",
+        "area": 92122,
+        "imageUrl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/san-diego-california/800x500/san-diego-temple-765109-wallpaper.jpg"
+    }
+]

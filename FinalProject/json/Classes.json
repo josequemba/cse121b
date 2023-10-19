@@ -1,0 +1,335 @@
+[
+    {
+        "className": "The Eternal Family",
+        "code": "200C",
+        "status": "Not",
+        "grade": "N/A",
+        "type": "Religious",
+        "description": "obrigated"
+    },
+    {
+        "className": "Foundations of Restoration",
+        "code": "225C",
+        "status": "Not",
+        "grade": "N/A",
+        "type": "Religious",
+        "description": "obrigated"
+    },
+    {
+        "className": "Jesus Christ Evrlst Gospel",
+        "code": "250C",
+        "status": "Taking",
+        "grade": "A",
+        "type": "Religious",
+        "description": "obrigated"
+    },
+    {
+        "className": "Teachings of Book of Mormon",
+        "code": "275C",
+        "status": "Not",
+        "grade": "N/A",
+        "type": "Religious",
+        "description": "Not obrigated"
+    },
+    {
+        "className": "Book of Mormon ",
+        "code": "121",
+        "status": "Not",
+        "grade": "N/A",
+        "type": "Religious",
+        "description": "Not obrigated"
+    },
+    {
+        "className": "Book of Mormon ",
+        "code": "122",
+        "status": "Not",
+        "grade": "N/A",
+        "type": "Religious",
+        "description": "Not obrigated"
+    },
+    {
+        "className": "Math for the Real World",
+        "code": "MATH 108X",
+        "status": "Not",
+        "grade": "N/A",
+        "type": "GENERAL EDUCATION FOR BYU PATHWAY - QUANTITATIVE REASONING",
+        "description": "Not obrigated"
+    },
+    {
+        "className": "Business Statistics",
+        "code": "MATH 221A",
+        "status": "Not",
+        "grade": "N/A",
+        "type": "GENERAL EDUCATION FOR BYU PATHWAY - QUANTITATIVE REASONING",
+        "description": "Not obrigated"
+    },
+    {
+        "className": "Intro Statistics with R",
+        "code": "MATH 221D",
+        "status": "Not",
+        "grade": "N/A",
+        "type": "GENERAL EDUCATION FOR BYU PATHWAY - QUANTITATIVE REASONING",
+        "description": "Not obrigated"
+    },
+    {
+        "className": "Social Science Statistics",
+        "code": "MATH 221C",
+        "status": "Not",
+        "grade": "N/A",
+        "type": "GENERAL EDUCATION FOR BYU PATHWAY - QUANTITATIVE REASONING",
+        "description": "Not obrigated"
+    },
+    {
+        "className": "Biostatistics",
+        "code": "MATH 221B",
+        "status": "Not",
+        "grade": "N/A",
+        "type": "GENERAL EDUCATION FOR BYU PATHWAY - QUANTITATIVE REASONING",
+        "description": "Not obrigated"
+    },
+    {
+        "className": "Writing/Reasoning Foundation",
+        "code": "ENG 150",
+        "status": "Not",
+        "grade": "N/A",
+        "type": "GENERAL EDUCATION FOR BYU PATHWAY - WRITING",
+        "description": "Obrigated"
+    },
+    {
+        "className": "Advanced Writing & Research",
+        "code": "ENG 301",
+        "status": "Not",
+        "grade": "N/A",
+        "type": "GENERAL EDUCATION FOR BYU PATHWAY - WRITING",
+        "description": "Not obrigated"
+    },
+    {
+        "className": "Adv Writing in Pro Contexts",
+        "code": "BUS 301",
+        "status": "Not",
+        "grade": "N/A",
+        "type": "GENERAL EDUCATION FOR BYU PATHWAY - WRITING",
+        "description": "Not obrigated"
+    },
+    {
+        "className": "UNIVERSITY SKILLS",
+        "code": "GS 120",
+        "status": "Taken",
+        "grade": "A",
+        "type": "GENERAL EDUCATION FOR BYU PATHWAY - COLLEGE SUCCESS",
+        "description": "Obrigated"
+    },
+    {
+        "className": "Home & Family Resource Mgmt",
+        "code": "FCS 160",
+        "status": "Not",
+        "grade": "N/A",
+        "type": "GENERAL EDUCATION FOR BYU PATHWAY - Family & Consumer Module",
+        "description": "Obrigated"
+    },
+    {
+        "className": "Sustaining Human Life",
+        "code": "GESCI110 ",
+        "status": "Not",
+        "grade": "N/A",
+        "type": "GENERAL EDUCATION FOR BYU PATHWAY - Science Module",
+        "description": "Obrigated"
+    },
+    {
+        "className": "Discov/Discern Through Arts",
+        "code": "HUM 110",
+        "status": "Not",
+        "grade": "N/A",
+        "type": "GENERAL EDUCATION FOR BYU PATHWAY - Humanity Module",
+        "description": "Obrigated"
+    },
+    {
+        "className": "Conflict and Peace",
+        "code": "PEACE101",
+        "status": "Not",
+        "grade": "N/A",
+        "type": "GENERAL EDUCATION FOR BYU PATHWAY - Conflict & Peace Module",
+        "description": "Obrigated"
+    },
+    {
+        "className": "Personal Health & Wellness",
+        "code": "PUBH 132",
+        "status": "Not",
+        "grade": "N/A",
+        "type": "GENERAL EDUCATION FOR BYU PATHWAY - Personal Health Module",
+        "description": "Obrigated"
+    },
+    {
+        "className": "PROGRAMMING BUILDING BLOCKS ",
+        "code": "CSE 110",
+        "status": "Taken",
+        "grade": "A",
+        "type": "Web and Computer Programming - C129",
+        "description": "Obrigated"
+    },
+    {
+        "className": "Programming with Functions",
+        "code": "CSE 111",
+        "status": "Taken",
+        "grade": "A",
+        "type": "Web and Computer Programming - C129",
+        "description": "Obrigated"
+    },
+    {
+        "className": "Programming with Classes",
+        "code": "CSE 210 ",
+        "status": "Taking",
+        "grade": "A",
+        "type": "Web and Computer Programming - C129",
+        "description": "Obrigated"
+    },
+    {
+        "className": "Career Development ",
+        "code": "GS 170",
+        "status": "Taking",
+        "grade": "A",
+        "type": "Web and Computer Programming - C129",
+        "description": "Obrigated"
+    },
+    {
+        "className": "Web Fundamentals ",
+        "code": "WDD 130",
+        "status": "Taken",
+        "grade": "A",
+        "type": "Web and Computer Programming - C129",
+        "description": "Obrigated"
+    },
+    {
+        "className": "JavaScript Language",
+        "code": "CSE 121B",
+        "status": "Taking",
+        "grade": "A",
+        "type": "Web and Computer Programming - C129",
+        "description": "Obrigated"
+    },
+    {
+        "className": "Web Frontend Development I ",
+        "code": "WDD 230",
+        "status": "Not",
+        "grade": "N/A",
+        "type": "Web and Computer Programming - C129",
+        "description": "Obrigated"
+    },
+    {
+        "className": "Introduction to Databases",
+        "code": "CIT 111",
+        "status": "Not",
+        "grade": "N/A",
+        "type": "Web Development - C175",
+        "description": "Obrigated"
+    },
+    {
+        "className": "Web Backend Development",
+        "code": "CSE 340",
+        "status": "Not",
+        "grade": "N/A",
+        "type": "Web Development - C175",
+        "description": "Obrigated"
+    },
+    {
+        "className": "Web Services",
+        "code": "CSE 341",
+        "status": "Not",
+        "grade": "N/A",
+        "type": "Web Development - C175",
+        "description": "Obrigated"
+    },
+    {
+        "className": "Web Frontend Development II",
+        "code": "WDD 330",
+        "status": "Not",
+        "grade": "N/A",
+        "type": "Web Development - C175",
+        "description": "Obrigated"
+    },
+    {
+        "className": "Web Full-Stack Development",
+        "code": "WDD 430",
+        "status": "Not",
+        "grade": "N/A",
+        "type": "Web Development - C175",
+        "description": "Obrigated"
+    },
+    {
+        "className": ".NET Software Development",
+        "code": "CSE 325",
+        "status": "Not",
+        "grade": "N/A",
+        "type": "Software Development - C178",
+        "description": "Obrigated"
+    },
+    {
+        "className": "Programming w/Data Struct",
+        "code": "CSE 212",
+        "status": "Not",
+        "grade": "N/A",
+        "type": "Software Development - C178",
+        "description": "Obrigated"
+    },
+    {
+        "className": "Software Testing",
+        "code": "CSE 270",
+        "status": "Not",
+        "grade": "N/A",
+        "type": "Software Development - C178",
+        "description": "Obrigated"
+    },
+    {
+        "className": "Applied Programming ",
+        "code": "CSE 310",
+        "status": "Not",
+        "grade": "N/A",
+        "type": "Software Development - C178",
+        "description": "Obrigated"
+    },
+    {
+        "className": "Architectural Design",
+        "code": "CSE 430",
+        "status": "Not",
+        "grade": "N/A",
+        "type": "Software Development - C178",
+        "description": "Obrigated"
+    },
+    {
+        "className": "Internship",
+        "code": "CSE 398",
+        "status": "Not",
+        "grade": "N/A",
+        "type": "CAPSTONE",
+        "description": "Obrigated"
+    },
+    {
+        "className": "Senior Project ",
+        "code": "CSE 499",
+        "status": "Not",
+        "grade": "N/A",
+        "type": "CAPSTONE",
+        "description": "Obrigated"
+    },
+    {
+        "className": "LIFE SKILLS",
+        "code": "PC 101",
+        "status": "Taken",
+        "grade": "A",
+        "type": "OTHER COURSES TAKEN",
+        "description": "Obrigated"
+    },
+    {
+        "className": "PROFESSIONAL SKILLS",
+        "code": "PC 102",
+        "status": "Taken",
+        "grade": "A",
+        "type": "OTHER COURSES TAKEN",
+        "description": "Obrigated"
+    }
+]
+
+
+
+
+ 

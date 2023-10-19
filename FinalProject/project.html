@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSE 121b | Project </title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body id="week5">
+  <nav>
+    <ul id="menu">
+      <li><a id="toggleMenu">&equiv;</a></li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="w01-task.html">W1 Task</a></li>
+      <li><a href="w03-task.html">W3 Task</a></li>
+      <li><a href="w04-task.html">W4 Task</a></li>
+      <li><a href="w05-task.html">W5 Task</a></li>
+      <li><a href="project.html" class="active">Project</a></li>
+    </ul>
+  </nav>
+  <main id="gridly">
+
+    <h1>Project</h1>
+    
+    <section id="profile">
+    </section>
+
+    <h2>Latter-day Temples</h2>
+    <h2>Classes</h2>
+
+    <select id="sortByTemple" title="Choose a data filter.">
+      <option value="" disabled selected>Filter Temples</option>
+      <option value="visited">Visited Temples</option>
+      <option value="desired">Want to visit</option>
+      <option value="all">No Filter</option>
+    </select>
+
+    <select id="sortByClasses" title="Choose a data filter.">
+      <option value="" disabled selected>Filter Classes</option>
+      <option value="completed">Completed Classes</option>
+      <option value="current">Current Classes</option>
+      <option value="future">Classes to Take</option>
+      <option value="all">No Filter</option>
+    </select>
+
+    <div id="temples">
+    </div>
+
+    <div id="classes">
+      <table>
+        <tr>
+          <th style="width:10%">Code</th>
+          <th style="width:10%">Class Name</th>
+          <th style="width:10%">Status</th>
+          <th style="width:10%">Type</th>
+          <th style="width:10%">Description</th>
+        </tr>
+        <tr>
+          <td>Centro comercial Moctezuma</td>
+          <td>Francisco Chang</td>
+          <td>Mexico</td>
+        </tr>
+        <tr>
+          <caption>Germany</caption>
+        </tr>
+      </table>
+    </div>
+  </main>
+
+
+  <footer>
+    &copy;<span id="year"></span> | Week 05 - Fetching Temple Data | CSE 121b
+  </footer>
+  <script src="scripts/main.js"></script>
+  <script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+  </script>
+  <script src="scripts/project.js"></script>
+</body>
+
+</html>
