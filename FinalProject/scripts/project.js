@@ -1,16 +1,27 @@
-/* W05: Programming Tasks */
+/* import modules */
+import getTemples from "./module.js"
+import templeList from "./module.js"
+import reset from "./module.js"
+import sortBy from "./module.js"
 
 /* Declare and initialize global variables */
+
+const urlTemples = "https://josequemba.github.io/cse121b/FinalProject/json/Temples.json";
+const urlProfile = "https://josequemba.github.io/cse121b/FinalProject/json/Profile.json";
+const urlClasses = "https://josequemba.github.io/cse121b/FinalProject/json/Classes.json";
+
+
+let profileArray = [];
+let classesList = [];
+
 let templesElement = document.querySelector('#temples');
-let templeList = [];
+let classesElement = document.querySelector('#classes');
 
-/* async displayTemples Function */
-const displayTemples = (temples) => {
+const displayTemples = (arrayBox) => {
 
-    temples.forEach((temple) =>
+    arrayBox.forEach((temple) =>
     {
         const articleElement = document.createElement('article');
-        //articleElement.style.backgroundColor = "";
 
         const h3Element = document.createElement('h3')
         h3Element.textContent += temple.templeName;
@@ -19,56 +30,17 @@ const displayTemples = (temples) => {
         imgElement.setAttribute ('src', `${temple.imageUrl}`);
         imgElement.setAttribute ('alt', temple.templeName);
         imgElement.setAttribute ('width', "270em");
-        //imgElement.setAttribute ('height', "400");
 
         articleElement.appendChild (h3Element);
         articleElement.appendChild (imgElement);
         templesElement.appendChild (articleElement);
     });
 }; 
-/* async getTemples Function using fetch()*/
-const getTemples = async () => {
-    const response = await fetch ('https://byui-cse.github.io/cse121b-ww-course/resources/temples.json');
 
-    if (response. ok)
-    {
-        templeList = await response.json ();
-    
-        displayTemples (templeList);
-    }
-}
+getTemples (urlTemples, displayTemples);
 
 
-/* reset Function */
-function reset () {
-    templesElement.innerHTML = "";
-}
-
-/* sortBy Function */
-function sortBy (temples) {
-
-    reset ();
-
-    const filter = document.querySelector ('#sortBy').value;
-
-    switch (filter) {
-        case "utah":
-            displayTemples(temples.filter(temp => temp.location.includes("Utah")));
-            break;
-        case "notutah":
-            displayTemples(temples.filter(temp => !temp.location.includes("Utah")));
-            break;
-        case "older":
-            displayTemples(temples.filter(temp => new Date(temp.dedicated) < new Date(1950, 0, 1)));
-            break;
-        case "all":
-            displayTemples(temples);
-            break;
-        default:
-            console.log("Invalid filter option");
-    }
-}
 
 /* Event Listener */
-document.querySelector ('#sortBy').addEventListener("change", () => {sortBy(templeList)});
-getTemples ();
+//document.querySelector ('#sortBy').addEventListener("change", () => {sortBy(templeList)});
+//getTemples ();
