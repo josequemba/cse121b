@@ -1,14 +1,16 @@
 
+export let profileArray = [];
+export let classesList = [];
 export let templeList = [];
 
-const getTemples = async (url, displayTemples) => {
+const getTemples = async (url, displayTemples, html) => {
     const response = await fetch (url);
 
     if (response. ok)
     {
         templeList = await response.json ();
 
-        displayTemples (templeList);
+        displayTemples (templeList, html);
     }
 }
 
