@@ -114,8 +114,9 @@ footer {
     padding: 15px;
     text-align: center;
     width: 100%;
-    position: fixed;
+    position:-ms-page;
     bottom: 0;
+    margin-top: 10%;
 }
 
 /* Class Selectors */
@@ -135,8 +136,20 @@ footer {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
-    margin: 0 auto;
     align-self: center;
+    grid-column: 1/2;
+    width: 100%;
+    padding-left: 10%;
+}
+#classes {
+    display: left;
+    text-align: center;
+    margin: 0 auto;
+    grid-column: 2/3;
+    width: 100%;
+}
+#classes th{
+    font-size: .1em;
 }
 
 #temples img{
@@ -151,14 +164,41 @@ footer {
     padding-bottom: 200px;
     padding-top: 5px;
     margin-bottom: -180px;
+    margin-top: 25%;
+}
+#project{
+    grid-column: 1/3;
+    grid-row: 2/3;
+    text-align: center;
+}
+#latter{
+    grid-column: 1/2;
+    grid-row: 4/;
+    text-align: center;
+}#class{
+    grid-column: 2/3;
+    grid-row: 4/3;
+    text-align: center;
 }
 
 #gridly{
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
 }
 
-#sortBy{
+
+#sortByTemple{
+    grid-column: 1/2;
+    width: 20em;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+#sortByClasses{
+    grid-column: 2/3;
     width: 20em;
     text-align: center;
     margin: 0 auto;

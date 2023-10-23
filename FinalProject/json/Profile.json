@@ -1,8 +1,8 @@
 [
     {
-        "Name": "Johannesburg South Africa Temple",
-        "Major": "Software Development ",
-        "Date of Birth": "1996, August, 07",
-        "profilepicture": "images\\mySelfM.jpg"
+        "name": "Jose Eliud Dias Dos Santos Quemba",
+        "major": "Software Development ",
+        "date_of_Birth": "1996, August, 07",
+        "profilepicture": "https://josequemba.github.io/cse121b/images/mySelfM.jpg"
     }
 ]
