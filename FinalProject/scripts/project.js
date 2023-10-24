@@ -1,5 +1,5 @@
 /* import modules */
-import {classesList, templeList, getTemples, reset} from "./module.js"
+import {classesList, templeList, getTemplesEClasses, reset, getTemplesEClassesfilter} from "./module.js"
 
 import {displayTemples, displayClasses, displayProfile1, displayProfile2} from "./module2.js"
 
@@ -17,7 +17,7 @@ let profileElement = document.querySelector('#profile');
 
 
 /* sortBy Function */
-export function sortByTemple (templesEle) {
+export function sortByTemple () {
 
     reset (templesElement);
 
@@ -25,13 +25,13 @@ export function sortByTemple (templesEle) {
 
     switch (filter) {
         case "visited":
-            displayTemples1((templesEle.filter(visit => visit.visit.includes("yes"))), htmlE);
+            getTemplesEClassesfilter(urlTemples, displayTemples, visit => visit.visit.includes("yes"), templesElement);
             break;
         case "desired":
-            displayTemples1((templesEle.filter(visit => visit.visit.includes("want"))), htmlE);
+            getTemplesEClassesfilter(urlTemples, displayTemples, visit => visit.visit.includes("want"), templesElement);
             break;
         case "all":
-            displayTemples1(templesEle, htmlE);
+            getTemplesEClasses (urlTemples, displayTemples, templesElement);
             break;
         default:
             console.log("Invalid filter option");
@@ -39,7 +39,7 @@ export function sortByTemple (templesEle) {
 }
 
 
-export function sortByClasses (classesL) {
+export function sortByClasses () {
 
     reset (classesElement);
 
@@ -47,16 +47,16 @@ export function sortByClasses (classesL) {
 
     switch (filter) {
         case "completed":
-            displayTemples(classesL.filter(classes => classes.status.includes("Taken")));
+            getTemplesEClassesfilter(urlClasses, displayClasses, classes => classes.status.includes("Taken"), classesElement);
             break;
         case "current":
-            displayTemples(classesL.filter(classes => classes.status.includes("Taking")));
+            getTemplesEClassesfilter(urlClasses, displayClasses, classes => classes.status.includes("Taking"), classesElement);
             break;
         case "future":
-            displayTemples(classesL.filter(classes => classes.status.includes("Not")));
+            getTemplesEClassesfilter(urlClasses, displayClasses, classes => classes.status.includes("Not"), classesElement);
             break;
         case "all":
-            displayTemples(classesL);
+            getTemplesEClasses (urlClasses, displayClasses, classesElement);
             break;
         default:
             console.log("Invalid filter option");
@@ -64,9 +64,19 @@ export function sortByClasses (classesL) {
 }
 
 document.querySelector('#sortByClasses').addEventListener ("change", () => {sortByClasses(classesList)});
-document.querySelector('#sortByTemple').addEventListener ("change", () => {sortByTemple (templeList, templesElement)});
+document.querySelector('#sortByTemple').addEventListener ("change", () => {sortByTemple (templeList)});
 
-getTemples (urlTemples, displayTemples, templesElement);
-getTemples (urlClasses, displayClasses, classesElement);
-getTemples (urlProfile, displayProfile1, profileElement);
-getTemples (urlProfile, displayProfile2, profileElement);
+getTemplesEClasses (urlTemples, displayTemples, templesElement);
+getTemplesEClasses (urlClasses, displayClasses, classesElement);
+getTemplesEClasses (urlProfile, displayProfile1, profileElement);
+getTemplesEClasses (urlProfile, displayProfile2, profileElement);
+
+const bio = ["Through my Associate degree in administration and \
+accounting and now pursuing a bachelor's degree in Web and software \
+development, I have great experience in business administration and \
+management, with more than 20 projects made through coding in Python, \
+HTML, CSS, JavaScript, and C# language and solving different problem \
+with it. I’ve got a lot of skills I can assist and work hard within \
+any team project assigned to me."];
+
+profileElement.innerHTML += bio.map(hob => `<b>Bio:</b>${hob}</b>`); 

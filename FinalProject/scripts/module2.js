@@ -36,15 +36,15 @@ export function displayClasses (arrayBoxs, htmlE) {
 export function displayProfile1 (arrayBox, htmlE) {
     const image = arrayBox.map ((img) =>
         `<img src = ${img.profilepicture} alt = "Profile Picture">`);
-    htmlE.innerHTML = image;
+    htmlE.innerHTML += image;
 }
 
 export function displayProfile2 (arrayBox, htmlE) {
 
     const htmlElement = arrayBox.map ((profile) =>
-    `<ul><li>Name: ${profile.name}</li>
-    <li>Date of Birth: ${profile.date_of_Birth}</li>
-    <li>Major: ${profile.major}</li>
+    `<ul><li><b>Name</b>: ${profile.name}</li>
+    <li><b>Date of Birth</b>: ${profile.date_of_Birth}</li>
+    <li><b>Major</b>: ${profile.major}</li>
     </ul>`);
     htmlE.innerHTML += htmlElement;
 }
